@@ -33,16 +33,13 @@ Three types of models: Logistic Regression, Random Forest and Decision Trees.
 
 #### Logistic Regression
 
-- Achieved an accuracy of 85.3%, precision of 52.94%, recall of 17.82%, F1-score of 26.67%, and AUC of 0.575.
-- The confusion matrix revealed 18 true positives, 551 true negatives, 15 false positives, and 83 false negatives.
+- Had an accuracy of 85.46%, F1-score of 26.67%, and AUC of 0.83.
 #### Random Forest
-- Attained an accuracy of 92.9%, F1-score of 77%, and AUC of 0.77.
-- The confusion matrix exhibited 55 true positives, 564 true negatives, 2 false positives, and 46 false negatives.
+- Attained an accuracy of 94.75%, F1-score of 80%, and AUC of 0.94.
+- Hyperparameter tuning was executed leveraging GridSearchCV to optimize the Random Forest model.
 #### Decision Trees:
 
-- The model yielded an accuracy of 92.2%, slightly trailing behind the performance of the Random Forest model.
-Hyperparameter tuning was executed leveraging GridSearchCV to optimize the Random Forest model.
-
+- The model yielded an accuracy of 93.1%, and AUC of 0.85. 
 #### Models Evaluation
 
 ROC curves compared the performance of Decision Trees, Logistic Regression and Random Forest models, with Random Forest having a higher AUC.
