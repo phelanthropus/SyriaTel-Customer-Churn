@@ -49,6 +49,7 @@ The following were the top predictors of churning:
 - Total day minutes
 - Customer service calls
 - Total evening minutes
+![alt text](<feature importance.png>)
 ### Observations
 
 - The Random Forest model outperforms both Logistic Regression and Decision Tree models in terms of AUC, with the highest value of 0.94.
