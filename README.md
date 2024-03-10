@@ -49,8 +49,6 @@ Hyperparameter tuning was executed leveraging GridSearchCV to optimize the Rando
 #### Models Evaluation
 
 ROC curves compared the performance of Decision Trees, Logistic Regression and Random Forest models, with Random Forest having a higher AUC.
-![ROC Curves](C:\Users\PC\Documents\Moringa\finalproject\ROC curves.png)
-
 
 #### Feature Importance
 The following were the top predictors of churning: 
