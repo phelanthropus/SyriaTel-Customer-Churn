@@ -40,16 +40,18 @@ Three types of models: Logistic Regression, Random Forest and Decision Trees.
 #### Decision Trees:
 
 - The model yielded an accuracy of 93.1%, and AUC of 0.85. 
+![Model Accuracy](<model accuracy.png>)
 #### Models Evaluation
 
 ROC curves compared the performance of Decision Trees, Logistic Regression and Random Forest models, with Random Forest having a higher AUC.
-
+![ROC Curve](<ROC curves.png>)
 #### Feature Importance
 The following were the top predictors of churning: 
 - Total day minutes
 - Customer service calls
 - Total evening minutes
-![alt text](<feature importance.png>)
+![feature importance](<feature importance.png>)
+
 ### Observations
 
 - The Random Forest model outperforms both Logistic Regression and Decision Tree models in terms of AUC, with the highest value of 0.94.
