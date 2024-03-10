@@ -16,3 +16,14 @@ Syriatel Mobile Telecom stands as the principal stakeholder, driven by the imper
 - Identify key features influencing churn prediction.
 - Determine optimal machine learning models for churn prediction.
 - Devise customer retention strategies to minimize churn rates.
+
+### Dataset Overview ###
+The dataset, sourced from Kaggle, comprises 3333 entries and 21 columns detailing customer activity and churn status. Key features include account length, international plan status, call statistics, and customer service interactions. Exploratory data analysis will uncover insights into data quality and potential predictors of churn.
+
+### Data Preparation
+
+The initial phase of the analysis involved a thorough data preparation process encompassing the following key steps:
+1. Data Cleaning: The dataset underwent meticulous scrutiny, with each column examined to identify and address issues such as missing values, duplicates, and outliers.
+2. Data Transformation: Categorical data within the churn column underwent transformation into numerical representations. This transformation facilitated the incorporation of these categorical variables into the analytical models, enhancing the depth and accuracy of our insights.
+3. Exploratory Data Analysis (EDA): Extensive EDA was conducted. These analyses provided valuable insights into the distribution of features and the target variable, as well as uncovering potential correlations between different features within the dataset.
+4. Feature Engineering: To augment the predictive power of the models, certain columns underwent feature engineering. This involved encoding categorical variables such as international_plan and voice_mail_plan into numerical representations, thereby enabling their inclusion in the analytical frameworks. Additionally, features were normalized and scaled to ensure uniformity and consistency across the dataset, leveraging techniques such as StandardScaler to achieve this objective.
