@@ -29,21 +29,18 @@ The initial phase of the analysis involved a thorough data preparation process e
 4. Feature Engineering: To augment the predictive power of the models, certain columns underwent feature engineering. This involved encoding categorical variables such as international_plan and voice_mail_plan into numerical representations, thereby enabling their inclusion in the analytical frameworks. Additionally, features were normalized and scaled to ensure uniformity and consistency across the dataset, leveraging techniques such as StandardScaler to achieve this objective.
 
 ### Modeling 
-Data Modeling
+Three types of models: Logistic Regression, Random Forest and Decision Trees.
 
-Our analysis employed four distinct models: Logistic Regression, Random Forest, Decision Trees, and XGBoost.
+#### Logistic Regression
 
-Logistic Regression:
+- Achieved an accuracy of 85.3%, precision of 52.94%, recall of 17.82%, F1-score of 26.67%, and AUC of 0.575.
+- The confusion matrix revealed 18 true positives, 551 true negatives, 15 false positives, and 83 false negatives.
+#### Random Forest
+- Attained an accuracy of 92.9%, F1-score of 77%, and AUC of 0.77.
+- The confusion matrix exhibited 55 true positives, 564 true negatives, 2 false positives, and 46 false negatives.
+#### Decision Trees:
 
-Achieved an accuracy of 85.3%, precision of 52.94%, recall of 17.82%, F1-score of 26.67%, and AUC of 0.575.
-The confusion matrix revealed 18 true positives, 551 true negatives, 15 false positives, and 83 false negatives.
-Random Forest:
-
-Attained an accuracy of 92.9%, F1-score of 77%, and AUC of 0.77.
-The confusion matrix exhibited 55 true positives, 564 true negatives, 2 false positives, and 46 false negatives.
-Decision Trees:
-
-The model yielded an accuracy of 92.2%, slightly trailing behind the performance of the Random Forest model.
+- The model yielded an accuracy of 92.2%, slightly trailing behind the performance of the Random Forest model.
 Hyperparameter tuning was executed leveraging GridSearchCV to optimize the Random Forest model.
 
 #### Models Evaluation
